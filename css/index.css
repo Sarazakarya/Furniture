@@ -1,0 +1,361 @@
+html
+{
+    background-color:#ffffff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+header
+{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6))
+    ,url(../images/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo
+{
+    height: 60px;
+    border-radius: 70%;
+    margin: 25px ;
+}
+.main-nav
+{
+    list-style: none;
+    display: flex;
+
+}
+.main-nav li
+{
+    margin-right: 30px;
+}
+.main-nav a
+{
+    text-decoration: none;
+    color: white;
+}
+.main-nav a:hover
+{
+    text-decoration: underline;
+}
+.sign
+{ 
+    border: 1px solid white;
+    margin-right: 40px;
+    padding-top: 3px;
+    background-color: white;
+    border-radius: 25px;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+}
+.sign a
+{
+    text-decoration: none;
+    color: black;
+}
+.sign:hover
+{
+    border:0px;
+    background-color: #A19C7F;
+    color: white;
+}
+.sign a:hover
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+section
+{
+    padding: 30px 0px;
+}
+/* content */
+.content
+{
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    color: white;
+   
+}
+.search
+{
+    border: 1px solid rgba(52, 45, 45, 0.7);
+    background-image: linear-gradient(rgba(52, 45, 45, 0.7),rgba(52, 45, 45, 0.7));
+    border-radius: 20px;
+    height: 35px;
+    width: 400px;
+    padding-bottom: 10px ;
+    padding-left: 15px;
+}
+.content a
+{
+    color: white;
+    text-decoration: none;
+}
+.words h1
+{
+   font-weight: 300px;
+   word-spacing: 5px;
+}
+.words p
+{
+    width: 50%;
+    color: rgb(160, 160, 160);
+}
+.icons
+{
+    float: right;
+}
+.icons i
+{
+    display: block;
+    margin: 25px;
+    font-size: 20px;
+}
+h2, .values h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+h2::after
+{
+    background-color: #A19C7F;
+    border: solid 1px #A19C7F;
+    width: 100px;
+    height: 5px;
+    content: "";
+    display: block;
+    margin: 20px auto;
+}
+.product-wel
+{
+    text-align: center;
+    width: 45%;
+    margin: 20px auto ;
+}
+.kinds h3
+{ 
+    
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+.kinds img
+{
+    width: 70%;
+    height: 70%;
+    transition: 1s;
+    opacity: .9;
+    padding-left: 100px;
+}
+.kinds img:hover
+{
+    transform: scale(1.1);
+    margin-bottom: 0px;
+    opacity: 1;
+}
+/* table */
+.table img
+{
+    width: 70%;
+    height: 70%;
+}
+.table-right
+{
+   padding-top: 70px;
+}
+.table-right h1
+{
+    color: #605d4b;
+}
+.second-table img
+{
+  padding-left: 100px;
+}
+/* Values */
+.values
+{
+   margin-left: 50px;
+   margin-bottom: 100px;
+}
+.value
+{
+    height: 300px;
+    box-shadow: 1px 1px 6px black;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+.value h4
+{
+    text-align: center;
+}
+.value p
+{
+    text-align: center;
+   
+   margin-left: 10px;
+}
+.value button
+{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+.value button:hover
+{
+    background-color: black;
+}
+/* reviews */
+#reviews
+{
+    padding-left: 50px;
+}
+#reviews h3
+{
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 2.1rem;
+}
+#reviews h3::after
+{
+   display: block;
+   content: "";
+   background-color: #A19C7F;
+   border: solid 1px #A19C7F;
+   width: 100px;
+   height: 5px;
+   margin: 5px 40px;
+
+}
+.rev
+{
+    align-items: center;
+    margin-bottom: 150px;
+}
+.left p
+{
+    margin-left: 30%;
+    
+}
+.tri
+{
+    border: 5px solid #A19C7F;
+    border-radius: 20px;
+    line-height: 100px;
+    padding: 10px;
+    height: 200px;
+    margin-left: 35%;
+}
+.tri:hover
+{
+    border: 5px solid rgb(254, 246, 246);
+    border-radius: 20px;
+    line-height: 100px;
+    padding: 10px;
+    height: 200px;
+    margin-left: 35%;
+    background-color: black;
+    color: white;
+}
+.tri p
+{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.imgg
+{
+   border-radius: 50%;
+   height: 100px;
+   margin:  0px 0px 10px 350px;
+}
+#contact 
+{
+margin-bottom: 30px;
+margin-top: -20px;
+
+}
+form
+{
+    margin-bottom: 30px;
+}
+label
+{
+    margin-bottom: 7px;
+}
+input[type=text],input[type=email], select
+{
+    margin-bottom: 7px;
+    width:100% ;
+    padding: 7px;
+    border: solid 1px;
+    border-radius: 5px;
+    outline: none;
+}
+input[type=checkbox]
+{
+    margin-bottom: 13px;
+    outline: none;
+}
+button
+{
+   font-size: 1.2rem;
+   color: white;
+   background-color: #A19C7F;
+   font-weight: 500;
+   border: 1px solid #A19C7F;
+   border-radius: 5px;
+   width: 70px;
+   height: 40px;
+   
+}
+button:hover
+{
+  background-color: black;
+   
+}
+footer
+{
+    padding: 40px 0px;
+    background-color: #979276;
+    color: white;
+}
+footer p
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-nav,.social-nav
+{
+   display: flex;
+   list-style: none;
+}
+.footer-nav li,.social-nav li
+{
+    margin-left: 20px;
+}
+.footer-nav a,.social-nav a
+{
+    color: white;
+    text-decoration: none;
+}
+.footer-nav li a:hover,.social-nav li a:hover
+{
+    background-color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.social-nav
+{
+    float: right;
+}
